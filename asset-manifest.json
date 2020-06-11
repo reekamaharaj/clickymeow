@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clickymeow/static/css/main.5de06974.chunk.css",
+    "main.js": "/clickymeow/static/js/main.17bf09de.chunk.js",
+    "main.js.map": "/clickymeow/static/js/main.17bf09de.chunk.js.map",
+    "runtime-main.js": "/clickymeow/static/js/runtime-main.8852b1b6.js",
+    "runtime-main.js.map": "/clickymeow/static/js/runtime-main.8852b1b6.js.map",
+    "static/js/2.484a5eeb.chunk.js": "/clickymeow/static/js/2.484a5eeb.chunk.js",
+    "static/js/2.484a5eeb.chunk.js.map": "/clickymeow/static/js/2.484a5eeb.chunk.js.map",
+    "index.html": "/clickymeow/index.html",
+    "precache-manifest.4ee94ddca6275a95acfb09acb9652e63.js": "/clickymeow/precache-manifest.4ee94ddca6275a95acfb09acb9652e63.js",
+    "service-worker.js": "/clickymeow/service-worker.js",
+    "static/css/main.5de06974.chunk.css.map": "/clickymeow/static/css/main.5de06974.chunk.css.map",
+    "static/js/2.484a5eeb.chunk.js.LICENSE.txt": "/clickymeow/static/js/2.484a5eeb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8852b1b6.js",
+    "static/js/2.484a5eeb.chunk.js",
+    "static/css/main.5de06974.chunk.css",
+    "static/js/main.17bf09de.chunk.js"
+  ]
+}
