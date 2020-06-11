@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Clara",
+    "image": "assets/images/clara.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Clara Blep",
+    "image": "assets/images/clarablep.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Clara Fangs",
+    "image": "assets/images/clarafangs.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Clara Sweat",
+    "image": "assets/images/clarasweat.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Derpie",
+    "image": "assets/images/derpie.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Doo",
+    "image": "assets/images/doo.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Doofie",
+    "image": "assets/images/doofie.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dopie",
+    "image": "assets/images/dopie.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Emblo",
+    "image": "assets/images/emblo.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Embo",
+    "image": "assets/images/embo.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Empurr",
+    "image": "assets/images/empur.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Yuffie",
+    "image": "assets/images/yuffie.jpg"
+  }
+]
