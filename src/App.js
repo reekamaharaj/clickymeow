@@ -8,16 +8,52 @@ class App extends Component {
     state = {
         pictures,
         clickedCat: [],
-        game: 0,
+        score: 0,
+        highScore: 0,
+        win: 0,
+        lose: 0,
+        game: 0
     };
 
     clickedPic = (id) => {
         let clickedCat = this.state.clickedCat;
+
+        let score = this.state.score;
+        let highScore = this.state.highScore;
+
+        let win = this.state.win;
+        let lose = this.state.lose;
+
         this.setState({
             game: 0,
         });
-        clickedCat.push(id);
-        console.log("clicked");
+
+        if (clickedCat === undefined || clickedCat.length === 0) {
+            clickedCat.push(id);
+            console.log("game started");
+            //add one to score
+            //randomize the images
+        } else if (clickedCat.length === 12) {
+            this.setState({
+                win: this.state.win + 1
+            });
+            //restart game, score set to 0 and clear clicked Cat array
+            console.log("win")
+        } else if (clickedCat.includes(id)) {
+            //check if img has been clicked before
+            this.setState({
+                lose: this.state.lose + 1
+            });
+            console.log("lose");
+            //restart game, score set to 0 and clear clickedCat array
+        } else {
+            this.setState({
+                score: this.state.score + 1
+            });
+            clickedCat.push(id);
+            console.log("plus 1")
+            //randomize pictures
+        }
     };
 
     render() {
