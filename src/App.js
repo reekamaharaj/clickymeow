@@ -72,14 +72,14 @@ class App extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container bg-info">
                 <Game
                     score={this.state.score}
                     highScore={this.state.highScore}
                     win={this.state.win}
                     lose={this.state.lose}
                 />
-                <div className="row">
+                <div className="row bg-info">
                     {this.state.pictures.map((picture) => (
                         <Card
                             id={picture.id}
